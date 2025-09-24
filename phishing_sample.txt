@@ -1,0 +1,29 @@
+# Task 1: Obtain a Sample Phishing Email
+
+Objective
+To obtain a real or simulated phishing email for analysis and documentation as part of internship.
+
+Source
+- Website: [CanIPhish – Phishing Email Examples](https://caniphish.com/phishing-email-examples)
+- Sample Title: “You Have Received A New Payment”
+- Brand Spoofed: Payoneer
+
+Screenshot
+- File Name: phishing_sample_payoneer.png
+- Location: /screenshots/ folder in GitHub repository
+
+Description
+This phishing simulation mimics a Payoneer payment notification. It includes:
+- A spoofed sender address (`open@businesses.loan`)
+- A fake payment amount of $970.00
+- A message urging the recipient to verify their account within 24 hours
+- A suspicious link disguised as a Payoneer gateway
+
+Reason for Selection
+This sample demonstrates key phishing tactics:
+- Brand impersonation
+- Urgency and manipulation
+- Spoofed domain and sender
+- Suspicious link embedded in a financial context
+
+This makes it ideal for analyzing phishing indicators in Task 2.
