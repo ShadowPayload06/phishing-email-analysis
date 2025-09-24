@@ -1,0 +1,43 @@
+Suspicious Link and Attachment Analysis
+
+Objective:
+To identify potentially malicious links or attachments embedded in the phishing email sample.
+
+Sample Used:
+- Title: “You Have Received A New Payment”
+- Source: CanIPhish – Phishing Email Examples
+- Spoofed Brand: Payoneer
+
+Findings:
+- The email contains a hyperlink labeled “View Payment” which redirects to `http://businesses.loan/paynow`. 
+  This domain is unrelated to Payoneer and uses a suspicious `.loan` top-level domain (TLD), often associated with phishing campaigns.
+- The display text of the link attempts to mimic a legitimate action, but the actual URL leads to a deceptive domain.
+- No attachments were present in the sample. However, phishing emails commonly include files such as `invoice.zip`, `payment.html`, or `document.scr` 
+  which may contain malware or redirect to credential harvesting pages.
+
+Tools Used:
+- CheckPhish.ai — to scan the suspicious URL for phishing indicators.
+- VirusTotal — to simulate how a file or link would be analyzed for malware and threat signatures.
+
+How to Use VirusTotal:
+1. Visit [https://www.virustotal.com](https://www.virustotal.com)
+2. Choose either:
+   - **URL tab** to scan a suspicious link
+   - **File tab** to upload a suspicious attachment
+3. Paste the URL or upload the file
+4. Click **Search** or **Upload and analyze**
+5. Review the results:
+   - VirusTotal aggregates results from 70+ antivirus engines
+   - Look for red flags like “Phishing”, “Malware”, or “Suspicious behavior”
+
+Screenshot:
+No screenshots were included in this task. The analysis was conducted using publicly available tools and simulated phishing content for educational purposes.
+
+Conclusion:
+The link embedded in the email is deceptive and leads to a domain not affiliated with Payoneer. This is a common tactic used in phishing campaigns to trick users into revealing sensitive information. 
+The absence of attachments in this sample does not eliminate risk, as the embedded link itself is a threat vector.
+
+Note:
+This analysis highlights the importance of inspecting both visible and hidden elements of an email. 
+Suspicious links and misleading domains are key indicators of phishing attempts. 
+Tools like VirusTotal help validate threats without exposing the user to risk.
