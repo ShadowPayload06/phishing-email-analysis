@@ -1,0 +1,27 @@
+Examine Sender's Email Address for Spoofing
+
+Objective:
+Analyze the sender’s email address in the phishing sample to identify signs of spoofing or impersonation.
+
+Sample Used:
+- Title: “You Have Received A New Payment”
+- Source: CanIPhish – Phishing Email Examples
+- Spoofed Brand: Payoneer
+
+Sender Details:
+- Display Name: Payoneer
+- Email Address: open@businesses.loan
+- Domain: spearingservice.services.loan
+
+Analysis:
+1. Domain Mismatch:
+   The sender domain (.loan) does not match Payoneer’s official domain (@payoneer.com). This is a strong indicator of spoofing.
+
+2. Unusual TLD:
+   The top-level domain (.loan) is rarely used by legitimate financial services and is commonly exploited in phishing campaigns.
+
+3. Generic Local Part:
+   The local part of the email (open@) is vague and not tied to any known department (e.g., support@payoneer.com).
+
+Conclusion:
+The sender address is clearly spoofed. It uses a misleading domain and generic structure to impersonate Payoneer and trick recipients into trusting the message.
