@@ -1,0 +1,15 @@
+Any Mismatched URLs (Hover to See Real Link)
+
+Objective:
+To identify mismatched URLs in the phishing email, where the displayed link text differs from the actual destination URL.
+
+Observation:
+The phishing email includes a button labeled “View Payment” which appears to be legitimate. However, hovering over the link reveals the actual destination:
+- Displayed text: “View Payment”
+- Actual URL: `http://businesses.loan/paynow`
+
+Analysis:
+This mismatch is a classic phishing tactic. The attacker disguises the malicious link behind a trustworthy-looking label to trick users into clicking. The `.loan` domain is unrelated to Payoneer and is often used in phishing campaigns.
+
+Conclusion:
+Mismatched URLs are a strong indicator of phishing. Users should always hover over links to verify the true destination before clicking, especially when the email claims to be from a financial institution or service provider.
