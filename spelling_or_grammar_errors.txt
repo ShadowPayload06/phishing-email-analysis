@@ -1,0 +1,15 @@
+Verify Presence of Spelling or Grammar Errors
+
+Objective:
+To check for spelling or grammar inconsistencies in the phishing email that may indicate lack of professionalism or automated generation.
+
+Observation:
+The phishing email is mostly well-written, but contains subtle grammar issues:
+- The sentence “You have received a new payment to your Global Payment Service!” is awkwardly phrased. A more natural version would be: “You have received a new payment through your Global Payment Service account.”
+- The phrase “If clicking Verify fails, please click the link below:” is grammatically correct but sounds unnatural and robotic. A legitimate email would likely say: “If the verification link doesn’t work, please use the alternate link below.”
+
+Analysis:
+While there are no outright spelling mistakes, the phrasing and sentence structure suggest the email may have been auto-generated or written by a non-native speaker. These subtle cues help distinguish phishing attempts from professionally crafted emails.
+
+Conclusion:
+Even without spelling errors, unnatural grammar and robotic phrasing are red flags. Users should be trained to notice awkward language as part of phishing awareness.
