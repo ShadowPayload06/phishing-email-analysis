@@ -48,23 +48,17 @@ The email was examined using a combination of manual inspection and automated to
 | CheckPhish.ai        | Phishing URL detection               |
 | CanIPhish            | Phishing simulation platform         |
 
-
 ✅ Recommendations
 
-1. Do not click** on links from unknown or mismatched domains.  
+1. Do not click on links from unknown or mismatched domains.  
 2. Verify sender authenticity** using header analysis tools.  
 3. Use scanning platforms** like VirusTotal to validate suspicious links or attachments.  
 4. Report phishing** via email client options or internal security channels.  
 5. Educate users** on recognizing urgency, mismatched URLs, and spoofed branding.
 
-
 🧾 Notes
 
 - All findings are documented in `.txt` files for clarity and traceability.
-- Screenshots were reviewed but not included in public documentation to maintain privacy.  
-- Sensitive data such as email addresses and timestamps were redacted or anonymized.  
-- This report supports responsible disclosure and user training initiatives.
-
 - Screenshots were reviewed but not included in public documentation to maintain privacy.  
 - Sensitive data such as email addresses and timestamps were redacted or anonymized.  
 - This report supports responsible disclosure and user training initiatives.
