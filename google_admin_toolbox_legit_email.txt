@@ -1,0 +1,37 @@
+Task 3: Email Header Analysis Using Google Admin Toolbox
+
+Objective:
+To demonstrate the use of Google Admin Toolbox Message Header Analyzer for inspecting the header of a legitimate email.
+
+Tool Used:
+Google Admin Toolbox – Message Header Analyzer  
+Link: https://toolbox.googleapps.com/apps/messageheader/
+
+Email Source:
+A legitimate email received from Google confirming account activity.  
+Sender: noreply@google.com
+
+Steps Followed:
+1. Opened the email in Gmail.
+2. Clicked the three-dot menu (⋮) next to the reply button.
+3. Selected “Show original” to view the full email header.
+4. Copied the entire header text.
+5. Pasted the header into Google Admin Toolbox Message Header Analyzer.
+
+Results:
+- SPF: Pass with IP 209.85.220.69 — The sending IP is authorized by Google’s SPF policy.
+- DKIM: Pass with domain google.com — The message was digitally signed and verified.
+- DMARC: Result field present — Indicates that Google enforces domain-level authentication policies.
+
+Screenshot:
+A screenshot of the tool’s output has been added to the following folder for reference:  
+`phishing-email-analysis-task2/screenshots/`  
+File name: `google_admin_toolbox_google_email.png`
+
+Conclusion:
+The email passed all authentication checks (SPF, DKIM, DMARC) and was routed through trusted servers. This confirms the legitimacy of the sender and the integrity of the message.
+
+Note:
+This is how a legitimate email appears when scanned using Google Admin Toolbox.
+The presence of valid SPF, DKIM, and DMARC results — along with trusted relay paths — helps confirm authenticity and protects against spoofing.
+This analysis serves as a baseline for comparing suspicious or phishing emails in future tasks.
