@@ -1,0 +1,26 @@
+Email Header Analysis
+
+Objective:
+To inspect the email headers for signs of spoofing, failed authentication, or suspicious routing as part of phishing email analysis.
+
+Sample Used:
+- Title: “You Have Received A New Payment”
+- Source: CanIPhish – Phishing Email Examples
+- Spoofed Brand: Payoneer
+
+Method:
+Since the sample is a simulation and does not include real header data, a mock header was constructed to simulate analysis using MXToolbox.
+
+Mock Header:
+Return-Path: <open@businesses.loan>
+Received: from unknownserver.loan (192.168.1.100)
+Authentication-Results: spf=fail dkim=none dmarc=none
+
+Findings:
+- SPF: Failed — the domain `businesses.loan` is not authorized to send on behalf of Payoneer.
+- DKIM: Missing — no digital signature found to verify sender authenticity.
+- DMARC: None — the domain has no policy to prevent spoofing.
+- Relay Path: Routed through unknown mail servers, not matching Payoneer’s infrastructure.
+
+Conclusion:
+The email header shows clear signs of spoofing and lack of authentication. These discrepancies confirm the sender is not legitimate and the email is likely part of a phishing campaign.
